@@ -12,18 +12,18 @@ type Article = {
 }
 
 const articles: Article[] = [
-  { id: 1, title: "Y Combinator application guide from YC alumni", url: "https://lnkd.in/dR-ERqUf", category: "Getting Started" },
-  { id: 2, title: "100 ideas to get your startup's first 100 users", url: "https://lnkd.in/dydn8MA6", category: "Growth" },
-  { id: 3, title: "Y Combinator tool to find co-founders", url: "https://lnkd.in/dnFSvph7", category: "Getting Started" },
+  { id: 1, title: "Y Combinator application guide from YC alumni", url: "https://getfluently.notion.site/Y-Combinator-Application-Guide-1286a9ce04d98004b4dac50cf66fb883", category: "Getting Started" },
+  { id: 2, title: "100 ideas to get your startup's first 100 users", url: "https://www.first100users.com/", category: "Growth" },
+  { id: 3, title: "Y Combinator tool to find co-founders", url: "https://www.ycombinator.com/cofounder-matching", category: "Getting Started" },
   { id: 4, title: "All you need to build best landing pages", url: "https://landingpage.fyi/", category: "Growth" },
-  { id: 5, title: "Greatest sales deck example", url: "https://lnkd.in/dVAMccia", category: "Growth" },
-  { id: 6, title: "Y Combinator startup school", url: "https://lnkd.in/dSuZkWG6", category: "Getting Started" },
-  { id: 7, title: "Must have document templates: pitch deck, financial models, one-pager", url: "https://lnkd.in/dEgUV7zk", category: "Funding" },
-  { id: 8, title: "Sequoia's guide to pitching a startup", url: "https://lnkd.in/dxSkDHAQ", category: "Funding" },
-  { id: 9, title: "How to raise your first round of funding", url: "https://lnkd.in/duyd_5ry", category: "Funding" },
-  { id: 10, title: "Ready-to-use templates: roadmaps, marketing, team processes", url: "https://lnkd.in/dfVtN2ad", category: "Growth" },
-  { id: 11, title: "How to start a startup by Sam Altman", url: "https://lnkd.in/dEbxqnMs", category: "Getting Started" },
-  { id: 12, title: "How to come up with startup ideas by Paul Graham", url: "https://lnkd.in/d-eGmPxp", category: "Getting Started" },
+  { id: 5, title: "Greatest sales deck example", url: "https://medium.com/the-mission/the-greatest-sales-deck-ive-ever-seen-4f4ef3391ba0", category: "Growth" },
+  { id: 6, title: "Y Combinator startup school", url: "https://www.startupschool.org/", category: "Getting Started" },
+  { id: 7, title: "Must have document templates: pitch deck, financial models, one-pager", url: "https://www.pillar.vc/playlist/templates/", category: "Funding" },
+  { id: 8, title: "Sequoia's guide to pitching a startup", url: "https://articles.sequoiacap.com/writing-a-business-plan", category: "Funding" },
+  { id: 9, title: "How to raise your first round of funding", url: "https://fi.co/first-startup-funding", category: "Funding" },
+  { id: 10, title: "Ready-to-use templates: roadmaps, marketing, team processes", url: "https://www.reforge.com/artifacts", category: "Growth" },
+  { id: 11, title: "How to start a startup by Sam Altman", url: "https://startupclass.samaltman.com/", category: "Getting Started" },
+  { id: 12, title: "How to come up with startup ideas by Paul Graham", url: "https://www.paulgraham.com/startupideas.html", category: "Getting Started" },
 ]
 
 const categories = ["All", "Getting Started", "Growth", "Funding"]
