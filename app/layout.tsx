@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Founder Resources",
-  description: "Essential knowledge for early-stage founders",
+  description: "Top 12 resources for early-stage startup founders",
 };
 
 export default function RootLayout({
@@ -27,6 +27,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-gradient-to-br from-gray-50 to-gray-100`}
+        suppressHydrationWarning
       >
         {children}
       </body>
